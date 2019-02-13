@@ -1,0 +1,46 @@
+    <html>
+        <head>
+            <title</title>
+            <!-- external -->
+            <link rel="stylesheet" href="styles.css">
+            <!-- external -->
+            <meta charset= "utf-8">
+        </head>
+
+        <body>
+
+        <dvi>
+
+
+    <h1>My First JavaScript</h1>
+    <div></div>
+        <p>JavaScript can change the content of an HTML elment:</p>
+
+        <p id ="demo">watch here!</p>
+        <img id="picture" src="image/home6.gif" height="200" />
+        <button onclick="funct1()">click Me</button>
+        <button onclick="funct2()">click Me</button>
+        
+        <script>
+            demo = docunment.getElementById("demo")
+            picture = document.getElementById("picture")
+            function funct1(){
+                picture.src = " image/home7.gif"
+                demo.innerHTML = "golden hamster"
+                demo.style.fonSize="10px"
+                demo.style.color = "black"
+                demo.style.backgroundColor = "yellow"
+        }
+            function funct2(){
+                picture.src = " image/home6.gif"
+                demo.innerHTML = "white hasmter"
+                demo.style.fonSize="20px"
+                demo.style.color = "white"
+                demo.style.backgroundColor = "green"
+        }
+        </script>
+        </div>
+    </div>
+
+    </body>
+    </html>
